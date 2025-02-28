@@ -10,29 +10,29 @@ The following steps were performed to clean the dataset:
 
 1. Handling Missing Values
 
-Checked for null values and filled/replaced them appropriately.
+   Checked for null values and filled/replaced them appropriately.
 
-Ensured critical fields like Order ID, Amount, and Date had no missing values.
+   Ensured critical fields like Order ID, Amount, and Date had no missing values.
 
 
 2. Removing Duplicates
 
-Identified and removed duplicate Order ID entries.
+   Identified and removed duplicate Order ID entries.
 
 
 3. Standardizing Data Types
 
-Converted Date to proper datetime format.
+   Converted Date to proper datetime format.
 
-Ensured numerical values (Age, Amount, ship-postal-code) had correct data types.
+   Ensured numerical values (Age, Amount, ship-postal-code) had correct data types.
 
 
 4. Fixing Inconsistencies
 
-Standardized Gender values (e.g., "Women" vs. "Female").
+   Standardized Gender values (e.g., "Women" vs. "Female").
 
-Unified product Category names for consistency.
+   Unified product Category names for consistency.
 
-Checked Channel names for spelling variations.
+   Checked Channel names for spelling variations.
 
-Ensured currency format was uniform (INR).
+   Ensured currency format was uniform (INR).
